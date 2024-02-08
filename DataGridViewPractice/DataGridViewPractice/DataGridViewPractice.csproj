@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4E361022-681F-4128-9CB6-DECCB2FD24CD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DataGridViewPractice</RootNamespace>
+    <AssemblyName>DataGridViewPractice</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddColumnControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddColumnControl.Designer.cs">
+      <DependentUpon>AddColumnControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddColumnPopUpControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddColumnPopUpControl.Designer.cs">
+      <DependentUpon>AddColumnPopUpControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddItemControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComboListUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ComboListUC.Designer.cs">
+      <DependentUpon>ComboListUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetailsTemplate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DetailsTemplate.Designer.cs">
+      <DependentUpon>DetailsTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Draft.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Draft.Designer.cs">
+      <DependentUpon>Draft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddColumnControl.resx">
+      <DependentUpon>AddColumnControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddColumnPopUpControl.resx">
+      <DependentUpon>AddColumnPopUpControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComboListUC.resx">
+      <DependentUpon>ComboListUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailsTemplate.resx">
+      <DependentUpon>DetailsTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Draft.resx">
+      <DependentUpon>Draft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,15 @@
+C:\Users\Pugaizhenthi\source\repos\DataGridViewPractice\DataGridViewPractice\bin\Debug\DataGridViewPractice.exe.config
+C:\Users\Pugaizhenthi\source\repos\DataGridViewPractice\DataGridViewPractice\bin\Debug\DataGridViewPractice.exe
+C:\Users\Pugaizhenthi\source\repos\DataGridViewPractice\DataGridViewPractice\bin\Debug\DataGridViewPractice.pdb
+C:\Users\Pugaizhenthi\source\repos\DataGridViewPractice\DataGridViewPractice\obj\Debug\DataGridViewPractice.Form1.resources
+C:\Users\Pugaizhenthi\source\repos\DataGridViewPractice\DataGridViewPractice\obj\Debug\DataGridViewPractice.Properties.Resources.resources
+C:\Users\Pugaizhenthi\source\repos\DataGridViewPractice\DataGridViewPractice\obj\Debug\DataGridViewPractice.csproj.GenerateResource.cache
+C:\Users\Pugaizhenthi\source\repos\DataGridViewPractice\DataGridViewPractice\obj\Debug\DataGridViewPractice.csproj.CoreCompileInputs.cache
+C:\Users\Pugaizhenthi\source\repos\DataGridViewPractice\DataGridViewPractice\obj\Debug\DataGridViewPractice.exe
+C:\Users\Pugaizhenthi\source\repos\DataGridViewPractice\DataGridViewPractice\obj\Debug\DataGridViewPractice.pdb
+C:\Users\Pugaizhenthi\source\repos\DataGridViewPractice\DataGridViewPractice\obj\Debug\DataGridViewPractice.DetailsTemplate.resources
+C:\Users\Pugaizhenthi\source\repos\DataGridViewPractice\DataGridViewPractice\obj\Debug\DataGridViewPractice.csprojAssemblyReference.cache
+C:\Users\Pugaizhenthi\source\repos\DataGridViewPractice\DataGridViewPractice\obj\Debug\DataGridViewPractice.AddColumnControl.resources
+C:\Users\Pugaizhenthi\source\repos\DataGridViewPractice\DataGridViewPractice\obj\Debug\DataGridViewPractice.AddColumnPopUpControl.resources
+C:\Users\Pugaizhenthi\source\repos\DataGridViewPractice\DataGridViewPractice\obj\Debug\DataGridViewPractice.ComboListUC.resources
+C:\Users\Pugaizhenthi\source\repos\DataGridViewPractice\DataGridViewPractice\obj\Debug\DataGridViewPractice.Draft.resources
